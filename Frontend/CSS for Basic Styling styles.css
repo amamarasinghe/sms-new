@@ -1,0 +1,25 @@
+/* Add your CSS styles here */
+.history-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.history-container h2 {
+    margin-bottom: 10px;
+}
+
+.history-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history-container li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.history-container li:last-child {
+    border-bottom: none;
+}
